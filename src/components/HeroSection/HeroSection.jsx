@@ -44,8 +44,8 @@ const HeroSection = () => {
             {/* Text Content */}
             <div className="absolute inset-0 flex items-center justify-center text-center text-white">
               <div>
-                <h1 className="text-5xl font-bold sm:text-7xl">PT. MAJJATRA HIKARI INDONESIA</h1>
-                <p className="mt-4 text-2xl sm:text-2xl text-white p-2 ">
+                <h1 className="text-4xl lg:px-2 px-7 font-bold sm:text-7xl">PT. MAJJATRA HIKARI INDONESIA</h1>
+                <p className="mt-4 text-lg sm:text-2xl lg:px-2 px-7 text-white p-2 ">
                 “We are ready to serve and satisfy our customer needs and provide better solution.”
                 </p>
                 <button className="mt-6 rounded-md bg-blue-700 px-6 py-3 text-lg font-medium hover:bg-blue-600">

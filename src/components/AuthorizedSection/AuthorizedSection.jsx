@@ -9,7 +9,7 @@ const AuthorizedSection = () => {
   return (
     <section className="bg-white">
       <div className="container pt-16">
-        <h1 className="text-4xl font-bold text-center pb-10">
+        <h1 className="lg:text-4xl text-3xl font-bold text-center pb-10">
           Authorized Distributor
         </h1>
       </div>

@@ -33,7 +33,7 @@ const Navbar = () => {
             {/* Logo section */}
             <div className='flex gap-x-4'>
             <img src={logohikari} alt="" className="h-9 w-auto max-w-full" />
-                <h1 className='font-bold text-2xl text-blue-900'>PT. Majjatra Hikari Indonesia </h1>
+                <h1 className='font-bold text-lg lg:text-2xl text-blue-900'>PT. Majjatra Hikari Indonesia </h1>
             </div>
             {/* Menu section */}
             <div className='hidden lg:block'>

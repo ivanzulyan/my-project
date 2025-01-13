@@ -55,7 +55,7 @@ const ServicesSection = () => {
   return (
     <section className='bg-white'>
         <div className='container pb-14 pt-16'>
-            <h1 className='text-4xl font-bold text-left pb-10'>
+            <h1 className='lg:text-4xl text-3xl font-bold text-left pb-10'>
                 Services We Provide
             </h1>
             <div className='grid grid-cols-2 sm:grid-cols-3  md:grid-cols-4 gap-8'>
