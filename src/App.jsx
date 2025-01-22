@@ -6,16 +6,14 @@ import AuthorizedSection from './components/AuthorizedSection/AuthorizedSection'
 import LastSection from './components/LastSection/LastSection'
 import LastTwoSection from './components/LastSection/LastTwoSection'
 import FooterSection from './components/FooterSection/FooterSection'
+import PageRoutes from './components/PageRoutes/PageRoutes'
+import { Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
     <main className='overflow-x-hidden bg-white text-dark'>
       <Navbar />
-      <HeroSection />
-      <ServicesSection />
-      <AuthorizedSection />
-      <LastSection />
-      <LastTwoSection />
+      <PageRoutes />
       <FooterSection />
     </main>
   )

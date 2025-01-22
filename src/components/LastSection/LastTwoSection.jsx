@@ -27,11 +27,10 @@ const LastTwoSection = () => {
                 {contact.type === "whatsapp" ? (
                   <FaWhatsapp className="text-green-500 text-2xl" />
                 ) : (
-                  <AiOutlineMail className="text-blue-500 text-2xl" /> // Menampilkan ikon email dengan warna biru
+                  <AiOutlineMail className="text-blue-500 text-2xl" />
                 )}
                 <div>
                   <p className="font-semibold">{contact.name}</p>
-                  {/* Tautan WhatsApp */}
                   {contact.type === "whatsapp" ? (
                     <a
                       href={`https://wa.me/${contact.number}`}
@@ -42,7 +41,6 @@ const LastTwoSection = () => {
                       +{contact.number}
                     </a>
                   ) : (
-                    /* Tautan Email */
                     <a
                       href={`mailto:${contact.number}`}
                       className="text-gray-600 hover:text-blue-500"
@@ -59,11 +57,27 @@ const LastTwoSection = () => {
         {/* Div Kanan: Alamat */}
         <div className="w-full md:w-1/3 px-4">
           <h2 className="text-2xl font-bold text-white mb-6">Our Address</h2>
-          <p className="lg:text-lg font-semibold text-white">
+          <p className="lg:text-lg font-semibold text-gray-300">
+            PT. Majjatra Hikari Indonesia <br />
             Ruko Diamante Blok A No. 7-8 <br />
             Kota Deltamas, Cikarang Pusat, Bekasi <br />
             Jawa Barat, 17520
           </p>
+          {/* Google Maps */}
+          <div className="mt-6">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.1964015413537!2d107.17483477586967!3d-6.368624062301094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6991292d88b9b3%3A0xc011d5d17becdbcf!2sPT.%20Majjatra%20Hikari%20Indonesia!5e0!3m2!1sid!2sid!4v1737515092921!5m2!1sid!2sid"
+              width="100%"
+              height="250"
+              style={{ border: 0,
+                borderRadius: '12px',
+               }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Google Maps"
+            ></iframe>
+          </div>
         </div>
       </div>
     </section>

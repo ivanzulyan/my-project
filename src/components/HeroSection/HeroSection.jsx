@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 
 // IMPORT GAMBAR
 import image1 from "../../assets/image1.jpg";
@@ -12,10 +13,9 @@ import image5 from "../../assets/image5.jpg";
 import image6 from "../../assets/image6.jpg";
 import image7 from "../../assets/image7.jpg";
 
-
-
 const HeroSection = () => {
   const images = [image1, image2, image3, image4, image5, image6, image7];
+  const navigate = useNavigate(); // Inisialisasi navigate
 
   const settings = {
     dots: true,
@@ -26,6 +26,10 @@ const HeroSection = () => {
     autoplay: true,
     autoplaySpeed: 6000,
     arrows: false,
+  };
+
+  const handleNavigate = () => {
+    navigate("/project"); // Navigasi ke halaman project
   };
 
   return (
@@ -45,10 +49,13 @@ const HeroSection = () => {
             <div className="absolute inset-0 flex items-center justify-center text-center text-white">
               <div>
                 <h1 className="text-4xl lg:px-2 px-7 font-bold sm:text-7xl">PT. MAJJATRA HIKARI INDONESIA</h1>
-                <p className="mt-4 text-lg sm:text-2xl lg:px-2 px-7 text-white p-2 ">
-                “We are ready to serve and satisfy our customer needs and provide better solution.”
+                <p className="mt-4 text-lg sm:text-2xl lg:px-2 px-7 text-white p-2">
+                  “We are ready to serve and satisfy our customer needs and provide better solution.”
                 </p>
-                <button className="mt-6 rounded-md bg-blue-700 px-6 py-3 text-lg font-medium hover:bg-blue-600">
+                <button
+                  className="mt-6 rounded-md bg-blue-700 px-6 py-3 text-lg font-medium hover:bg-blue-600"
+                  onClick={handleNavigate} // Tambahkan onClick
+                >
                   Our Projects
                 </button>
               </div>
