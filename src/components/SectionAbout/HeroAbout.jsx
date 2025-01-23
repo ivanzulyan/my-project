@@ -5,7 +5,7 @@ import { FaCheckCircle } from 'react-icons/fa'; // Library Ikon (react-icons)
 function HeroAbout() {
   return (
     <>
-      <section className="bg-gray-100 py-12">
+      <section className="bg-white py-12">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-8">
           {/* Left Content */}
           <div className="flex-1">
@@ -35,7 +35,7 @@ function HeroAbout() {
       </div>
 
       {/* Vision and Mission Section */}
-      <section className="bg-black py-12 mt-12">
+      <section className="bg-dark py-12 mt-12">
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Vision */}
           <div>

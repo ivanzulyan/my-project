@@ -33,7 +33,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white shadow-md">
+    <nav className="bg-white border-black shadow-md">
       <div className="container py-5 flex justify-between items-center">
         {/* Logo section */}
         <div className="flex gap-x-4 items-center">
@@ -50,9 +50,9 @@ const Navbar = () => {
               <li key={menu.id}>
                 <a
                   href={menu.path}
-                  className="inline-block py-2 px-3 hover:text-secondary relative group"
+                  className="inline-block py-2 px-3 hover:text-blue-600 relative group"
                 >
-                  <div className="w-2 h-2 bg-secondary absolute mt-2 rounded-full left-1/2 bottom-0 group-hover:block hidden"></div>
+                  <div className="w-2 h-2 bg-blue-600 absolute mt-2 rounded-full left-1/2 bottom-0 group-hover:block hidden"></div>
                   {menu.title}
                 </a>
               </li>

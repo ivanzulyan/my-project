@@ -1,9 +1,10 @@
 import React from 'react'
+import CardProject from '../components/ProjectsPage/CardProject'
 
 function Project() {
   return (
-    <div>
-      
+    <div className='bg-dark'>
+    <CardProject />
     </div>
   )
 }

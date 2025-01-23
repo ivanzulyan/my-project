@@ -5,28 +5,28 @@ import { motion } from 'framer-motion'
 const ServicesData = [
     {
         id: 1,
-        tittle: "Self Leveling",
+        tittle: "Vinyl Material",
         link: "#",
         icon: <MdCheckCircleOutline />,
         delay: 0.2,
     },
     {
         id: 2,
-        tittle: "Installation Vinyl",
+        tittle: "Professional Installation",
         link: "#",
         icon: <MdCheckCircleOutline />,
         delay: 0.2,
     },
     {
         id: 3,
-        tittle: "Vinyl",
+        tittle: "Design Consultation",
         link: "#",
         icon: <MdCheckCircleOutline />,
         delay: 0.2,
     },
     {
         id: 4,
-        tittle: "Vinyl",
+        tittle: "Epoxy",
         link: "#",
         icon: <MdCheckCircleOutline />,
         delay: 0.2,

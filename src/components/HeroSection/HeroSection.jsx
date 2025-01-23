@@ -14,7 +14,7 @@ import image6 from "../../assets/image6.jpg";
 import image7 from "../../assets/image7.jpg";
 
 const HeroSection = () => {
-  const images = [image1, image2, image3, image4, image5, image6, image7];
+  const images = [image3, image2, image1, image4, image5, image6, image7];
   const navigate = useNavigate(); // Inisialisasi navigate
 
   const settings = {
@@ -29,7 +29,7 @@ const HeroSection = () => {
   };
 
   const handleNavigate = () => {
-    navigate("/project"); // Navigasi ke halaman project
+    navigate("/projects"); // Navigasi ke halaman project
   };
 
   return (
@@ -53,7 +53,7 @@ const HeroSection = () => {
                   “We are ready to serve and satisfy our customer needs and provide better solution.”
                 </p>
                 <button
-                  className="mt-6 rounded-md bg-blue-700 px-6 py-3 text-lg font-medium hover:bg-blue-600"
+                 className="bg-blue-800 text-white mt-4 py-3 px-6 rounded-lg shadow-xl hover:bg-blue-400 hover:shadow-2xl transition-all duration-300 ease-in-out transform hover:scale-105"
                   onClick={handleNavigate} // Tambahkan onClick
                 >
                   Our Projects

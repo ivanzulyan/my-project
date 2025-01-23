@@ -11,10 +11,11 @@ export default {
       },
       colors:{
         primary: "#f7ba34",
-        secondary: "#152A38",
+        secondary: "#007052",
         light: "#f7f7f7",
-        dark: "#333333",
+        dark: "#081F37",
         darktwo: "#99999",
+
       },
       container:{
         center: true,

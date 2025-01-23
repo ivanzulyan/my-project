@@ -1,9 +1,9 @@
 import React from "react";
-import meeting from "../../assets/meeting.jpg"; // Ganti dengan path gambar Anda
+import image3 from "../../assets/image3.jpg"; // Ganti dengan path gambar Anda
 
 const LastSection = () => {
   return (
-    <section className="bg-black py-16">
+    <section className="bg-dark py-16">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         {/* Div Kiri: Teks */}
         <div className="w-full md:w-3/5 px-4 text-center md:text-left">
@@ -19,11 +19,12 @@ const LastSection = () => {
         {/* Div Kanan: Gambar */}
         <div className="w-full md:w-2/5 px-4 flex justify-center">
           <img
-            src={meeting}
+            src={image3}
             alt="meeting"
-            className="max-w-full h-auto rounded-lg shadow-md"
+            className="max-w-full h-auto rounded-lg shadow-2xl"
           />
         </div>
+
       </div>
     </section>
   );

@@ -12,7 +12,7 @@ const LastTwoSection = () => {
   ];
 
   return (
-    <section className="bg-black py-16">
+    <section className="bg-dark py-16">
       <div className="container mx-auto flex flex-col md:flex-row gap-8">
         {/* Div Kiri: Kontak */}
         <div className="w-full md:w-2/3 px-4">
