@@ -155,7 +155,7 @@ const ProjectDetail = () => {
      </div>
 
       {/* Rekomendasi Proyek */}
-      <h2 className="text-2xl font-bold mt-24 text-center sm:text-3xl">Highlighted Projects</h2>
+      <h2 className="text-2xl font-bold mt-24 text-center sm:text-3xl">Projects Highlight</h2>
 <div className="grid grid-cols-1 sm:grid-cols-2 my-14 lg:grid-cols-3  gap-6 px-4 sm:px-6 md:px-8">
   {recommendations.map((rec) => (
     <div
@@ -174,7 +174,7 @@ const ProjectDetail = () => {
         </p>
         <Link
           to={`/projects/${rec.id}`}
-          className="bg-blue-700 text-white py-2 px-3 sm:px-4 rounded-lg shadow-md hover:bg-blue-600 transition-colors duration-200"
+          className="bg-blue-700 text-white py-3 px-6 sm:px-6 rounded-lg shadow-md hover:bg-blue-600 transition-colors duration-200"
         >
           View Details
         </Link>

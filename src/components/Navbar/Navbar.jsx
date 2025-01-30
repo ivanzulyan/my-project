@@ -38,8 +38,8 @@ const Navbar = () => {
     <nav className="bg-white border-black shadow-md">
       <div className="container py-5 flex justify-between items-center">
         {/* Logo section */}
-        <div className="flex gap-x-4 items-center">
-          <img src={logohikari} alt="Logo Hikari" className="h-9 w-auto max-w-full" />
+        <div className="flex gap-x-2 items-center">
+          <img src={logohikari} alt="Logo Hikari" className="lg:h-9 h-6 w-auto max-w-full" />
           <h1 className="font-bold text-lg lg:text-2xl text-blue-900">
             PT. Majjatra Hikari Indonesia
           </h1>

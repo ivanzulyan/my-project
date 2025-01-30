@@ -15,6 +15,7 @@ export default {
         light: "#f7f7f7",
         dark: "#081F37",
         darktwo: "#99999",
+        footercolor: "#0B192C",
 
       },
       container:{

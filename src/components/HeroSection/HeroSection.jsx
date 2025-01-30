@@ -48,12 +48,12 @@ const HeroSection = () => {
             {/* Text Content */}
             <div className="absolute inset-0 flex items-center justify-center text-center text-white">
               <div>
-                <h1 className="text-4xl lg:px-2 px-7 font-bold sm:text-7xl">PT. MAJJATRA HIKARI INDONESIA</h1>
-                <p className="mt-4 text-lg sm:text-2xl lg:px-2 px-7 text-white p-2">
+                <h1 className="text-4xl lg:px-2 px-7 font-bold lg:text-6xl">PT. MAJJATRA HIKARI INDONESIA</h1>
+                <p className="mt-4 text-lg lg:text-2xl lg:px-2 px-7 text-gray-200 p-2">
                   “We are ready to serve and satisfy our customer needs and provide better solution.”
                 </p>
                 <button
-                 className="bg-blue-800 text-white mt-4 py-3 px-6 rounded-lg shadow-xl hover:bg-blue-400 hover:shadow-2xl transition-all duration-300 ease-in-out transform hover:scale-105"
+                 className="inline-block bg-blue-700 text-white py-3 px-8 mt-5 rounded-lg shadow-md hover:bg-blue-600 transition-transform duration-200 hover:scale-105 focus:outline-none focus:ring focus:ring-blue-500"
                   onClick={handleNavigate} // Tambahkan onClick
                 >
                   Our Projects

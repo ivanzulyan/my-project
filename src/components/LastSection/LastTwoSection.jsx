@@ -57,7 +57,7 @@ const LastTwoSection = () => {
         {/* Div Kanan: Alamat */}
         <div className="w-full md:w-1/3 px-4">
           <h2 className="text-2xl font-bold text-white mb-6">Our Address</h2>
-          <p className="lg:text-lg font-semibold text-gray-300">
+          <p className="lg:text-lg font-semibold text-gray-200">
             PT. Majjatra Hikari Indonesia <br />
             Ruko Diamante Blok A No. 7-8 <br />
             Kota Deltamas, Cikarang Pusat, Bekasi <br />
