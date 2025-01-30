@@ -30,17 +30,17 @@ const products = [
   { id: 8, name: "Project 08 - RS Denpasar", image: denpasar },
   { id: 9, name: "Project 09 - RS Cawang", image: cawang },
   { id: 10, name: "Project 10 - Company", image: samudra },
-  { id: 11, name: "Project 11 - Toko Pop Up", image: dyson },
+  { id: 11, name: "Project 11 - Pop Up Store", image: dyson },
 ];
 
 // Data produk tambahan (6 produk baru)
 const newProducts = [
-  { id: 12, name: "Bekasi Project", image: epoxy1 },
-  { id: 13, name: "Cawang Project", image: epoxy2 },
-  { id: 14, name: "Kudus Project", image: epoxy3 },
-  { id: 15, name: "New Project 4", image: epoxy4 },
-  { id: 16, name: "New Project 5", image: epoxy5 },
-  { id: 17, name: "New Project 6", image: epoxy6 },
+  { id: 12, name: "Project 01 - Bekasi", image: epoxy1 },
+  { id: 13, name: "Project 02 - Cikarang", image: epoxy2 },
+  { id: 14, name: "Project 03 - Malang", image: epoxy3 },
+  { id: 15, name: "Project 04 - Sentul", image: epoxy4 },
+  { id: 16, name: "Project 05 - Sunter", image: epoxy5 },
+  { id: 17, name: "Project 06 - Cawang", image: epoxy6 },
 ];
 
 function CardProject() {

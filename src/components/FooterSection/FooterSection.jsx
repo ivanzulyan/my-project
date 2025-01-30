@@ -2,10 +2,10 @@ import React from 'react';
 
 const FooterSection = () => {
   return (
-    <div className="bg-white py-8">
+    <div className="bg-black py-5">
       <div className="container mx-auto flex justify-between items-center">
         {/* Div Kiri */}
-        <div className="text-gray-700">
+        <div className="text-white">
           <h1 className="text-sm lg:text-lg font-bold">PT. MAJJATRA HIKARI INDONESIA </h1>
         </div>
 
