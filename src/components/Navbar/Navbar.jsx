@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { IoMdMenu, IoMdClose } from 'react-icons/io';
+import { useNavigate } from 'react-router-dom';
 import logohikari from '../../assets/logohikari.png';
 
 const NavbarMenu = [
@@ -27,6 +28,7 @@ const NavbarMenu = [
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const navigate = useNavigate();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -48,13 +50,13 @@ const Navbar = () => {
           <ul className="flex items-center gap-6">
             {NavbarMenu.map((menu) => (
               <li key={menu.id}>
-                <a
-                  href={menu.path}
+                <button
+                  onClick={() => navigate(menu.path)}
                   className="inline-block py-2 px-3 hover:text-blue-600 relative group"
                 >
                   <div className="w-2 h-2 bg-blue-600 absolute mt-2 rounded-full left-1/2 bottom-0 group-hover:block hidden"></div>
                   {menu.title}
-                </a>
+                </button>
               </li>
             ))}
           </ul>
@@ -81,13 +83,15 @@ const Navbar = () => {
         <ul className="flex flex-col items-center gap-4 py-4">
           {NavbarMenu.map((menu) => (
             <li key={menu.id}>
-              <a
-                href={menu.path}
+              <button
+                onClick={() => {
+                  navigate(menu.path);
+                  setIsOpen(false);
+                }}
                 className="text-lg font-medium text-gray-800 hover:text-blue-900"
-                onClick={() => setIsOpen(false)} // Close menu after clicking a link
               >
                 {menu.title}
-              </a>
+              </button>
             </li>
           ))}
         </ul>
