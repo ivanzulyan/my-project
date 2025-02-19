@@ -1,12 +1,13 @@
 import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai"; // Import ikon email
 
 const LastTwoSection = () => {
   const contacts = [
     { name: "Mr. Hary", number: "6287813147000", type: "whatsapp" },
     { name: "Mr. Gunawan", number: "62811171835", type: "whatsapp" },
-    { name: "Phone", number: "622150871682", type: "whatsapp" },
+    { name: "Phone", number: "622150871682", type: "phone" },
     { name: "Email", number: "hary@majjatra.com", type: "email" },
     { name: "Email", number: "gunawan@majjatra.com", type: "email" },
   ];
@@ -25,10 +26,13 @@ const LastTwoSection = () => {
               >
                 {/* Menampilkan icon sesuai dengan jenis kontak */}
                 {contact.type === "whatsapp" ? (
-                  <FaWhatsapp className="text-green-500 text-2xl" />
-                ) : (
-                  <AiOutlineMail className="text-blue-500 text-2xl" />
-                )}
+  <FaWhatsapp className="text-green-500 text-2xl" />
+) : contact.type === "phone" ? (
+  <FaPhoneAlt className="text-gray-500 text-2xl" />
+) : (
+  <AiOutlineMail className="text-blue-500 text-2xl" />
+)}
+
                 <div>
                   <p className="font-semibold">{contact.name}</p>
                   {contact.type === "whatsapp" ? (
