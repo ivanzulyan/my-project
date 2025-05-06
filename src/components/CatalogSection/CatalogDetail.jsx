@@ -59,7 +59,7 @@ import Breccia from "../../assets/img-detail/catalog/catalog-view/apex/breccia.j
 import Chromite from "../../assets/img-detail/catalog/catalog-view/apex/chromite.jpg";
 import GreenQuartz from "../../assets/img-detail/catalog/catalog-view/apex/greenquartz.jpg";
 // FOREST FX
-import European from "../../assets/img-detail/catalog/catalog-view/forest/european.jpg";
+import European from "../../assets/img-detail/catalog/catalog-view/forest/European.jpg";
 import AmericanOak from "../../assets/img-detail/catalog/catalog-view/forest/americanoak.jpg";
 import Oslo from "../../assets/img-detail/catalog/catalog-view/forest/oslo.jpg";
 import ParisHoak from "../../assets/img-detail/catalog/catalog-view/forest/parishoak.jpg";
