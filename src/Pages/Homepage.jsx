@@ -4,6 +4,7 @@ import ServicesSection from '../components/ServicesSection/ServicesSection'
 import AuthorizedSection from '../components/AuthorizedSection/AuthorizedSection'
 import LastSection from '../components/LastSection/LastSection'
 import LastTwoSection from '../components/LastSection/LastTwoSection'
+import CatalogSection from '../components/CatalogSection/CatalogSection'
 
 function Homepage() {
   return (
@@ -11,6 +12,7 @@ function Homepage() {
     <HeroSection />
     <ServicesSection />
     <AuthorizedSection />
+    <CatalogSection />
     <LastSection />
     <LastTwoSection />
     </>

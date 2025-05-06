@@ -6,10 +6,7 @@ import { AiOutlineMail } from "react-icons/ai"; // Import ikon email
 const LastTwoSection = () => {
   const contacts = [
     { name: "Mr. Hary", number: "6287813147000", type: "whatsapp" },
-    { name: "Mr. Gunawan", number: "62811171835", type: "whatsapp" },
-    { name: "Phone", number: "622150871682", type: "phone" },
     { name: "Email", number: "hary@majjatra.com", type: "email" },
-    { name: "Email", number: "gunawan@majjatra.com", type: "email" },
   ];
 
   return (

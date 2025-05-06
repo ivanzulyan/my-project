@@ -69,7 +69,7 @@ function CardProject() {
                 to={`/projects/${product.id}`}
                 className="inline-block bg-blue-700 text-white py-2 px-4 rounded-lg shadow-md hover:bg-blue-600 transition-transform duration-200 hover:scale-105 focus:outline-none focus:ring focus:ring-blue-500"
               >
-                Detail Project
+                Project Details
               </Link>
             </div>
           </div>
@@ -99,7 +99,7 @@ function CardProject() {
                 to={`/projects/${product.id}`}
                 className="inline-block bg-blue-700 text-white py-2 px-4 rounded-lg shadow-md hover:bg-blue-600 transition-transform duration-200 hover:scale-105 focus:outline-none focus:ring focus:ring-blue-500"
               >
-                Detail Project
+                Project Details
               </Link>
             </div>
           </div>
